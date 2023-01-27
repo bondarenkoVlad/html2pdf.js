@@ -12,7 +12,7 @@
 		exports["html2pdf"] = factory(require("jspdf"), require("html2canvas"));
 	else
 		root["html2pdf"] = factory(root["jspdf"], root["html2canvas"]);
-})(self, function(__WEBPACK_EXTERNAL_MODULE_jspdf__, __WEBPACK_EXTERNAL_MODULE_html2canvas__) {
+})(this, function(__WEBPACK_EXTERNAL_MODULE_jspdf__, __WEBPACK_EXTERNAL_MODULE_html2canvas__) {
 return /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 

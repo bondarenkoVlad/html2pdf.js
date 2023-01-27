@@ -12,7 +12,7 @@
 		exports["html2pdf"] = factory();
 	else
 		root["html2pdf"] = factory();
-})(self, function() {
+})(this, function() {
 return /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
